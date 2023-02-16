@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: gray;
+   }
+.conteiner {
+    display: none;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.point{
+    font-size: 80px;
+    font-family: system-ui;
+    width: 100px;
+    height: 100px;
+    display: block;
+    border:3px solid black;
+    background: rgb(218, 218, 218);
+    margin: 3px;
+    transition: .5s;
+    text-align: center;
+    line-height: 90px;
+}
+
+.point:hover{
+    background: rgb(85, 82, 88);
+    cursor: pointer;
+}
+.player {
+    font-size: 100px;
+    text-align: center;
+}
+.fa-times{
+    color:red;
+}
+.fa-circle{
+    color:green;
+}
+.setPlayer{
+   max-width: 500px;
+   width: 100%;
+   height:auto;
+   background-color: #e2dad1;
+   border-radius: 5px;
+   padding: 0px 10px 20px;
+   font-size: 30px;
+   transition: 1s;
+}
+#xBtn, #oBtn {
+   height: 70px;
+   margin: 10px;
+   font-size: 30px;
+   font-family: monospace;
+} 
+.winnerBoard{
+    width: 100%;
+    max-width: 300px;
+    background-color: #e2dad1;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: 1s;
+    text-align: center;
+    display: none;
+}
+.reBtn{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: monospace;
+    border-radius: 3px;
+}

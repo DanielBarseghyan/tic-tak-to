@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c95693eb56.js" crossorigin="anonymous"></script>
+    <title>Doc_1</title>
+</head>
+
+<body>
+
+    <div class="setPlayer">
+        <h2>Select a player to start</h2>
+        <button id="xBtn" onclick="setPlayer(this)">Select (x)</button>
+        <button id="oBtn" onclick="setPlayer(this)">Select (o)</button>
+    </div>
+
+    <div class="winnerBoard"></div>
+    <div class='conteiner'>
+        <div class="player"></div>
+        <div class="row">
+            <span class="point" id=""></span>
+            <span class="point" id=""></span>
+            <span class="point" id=""></span>
+        </div>
+
+        <div class="row">
+            <span class="point" id=""></span>
+            <span class="point" id=""></span>
+            <span class="point" id=""></span>
+        </div>
+
+        <div class="row">
+            <span class="point" id=""></span>
+            <span class="point" id=""></span>
+            <span class="point" id=""></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
